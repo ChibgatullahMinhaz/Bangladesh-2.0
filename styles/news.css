@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     font-family: "Work Sans", serif;
@@ -61,4 +61,32 @@ margin-bottom: 1rem;
 #donate .donate_amount  h1:hover{
 background-color: #c6e4d6;
 cursor: pointer;
+}
+#donate_conatiner{
+    display: flex;
+    flex-direction: column;
+}
+#donate_conatiner input {
+padding: 1.5rem;
+text-align: center;
+cursor: pointer;
+box-shadow:  0 0 0 0.1px #0e0e0e;
+border: none;
+outline: none;
+margin-right: 4rem;
+margin-left: 4rem;
+font-size: 1rem;
+}
+#donateBtn{
+    text-align: center;
+}
+#donebtn{
+    transition: all 0.3 ease-in;
+
+}
+#donebtn:hover {
+    background-color: blanchedalmond;
+    box-shadow:  0 0 0 0.1px #0e0e0e;
+    color: darkblue;
+
 }

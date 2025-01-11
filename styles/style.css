@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", serif;
-
 }
 
 body {
   max-width: 90%;
   margin: auto;
   background-color: #f5f5f5;
-
 }
 
 .btn {
@@ -23,13 +21,18 @@ body {
   cursor: pointer;
   margin-top: 0.6rem;
   font-weight: bold;
+  transition: all 0.3s ease-in;
 }
-
+.btn:hover {
+  background-color: blanchedalmond;
+  box-shadow: 0 0 0 0.1px #0e0e0e;
+  color: darkblue;
+}
 header {
   margin-bottom: 3rem;
 }
-main{
-    margin-bottom: 3rem;
+main {
+  margin-bottom: 3rem;
 }
 /* nav start */
 nav {
@@ -51,8 +54,12 @@ nav h1 {
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-
+#singin:hover{
+  background-color: blue;
+  color:#d5e1f5 ;
+}
 /* banner code */
 #banner {
   display: flex;
@@ -83,9 +90,9 @@ nav h1 {
   margin-bottom: 0.7rem;
 }
 #banner .banner_content h1 {
-    font-weight: bold;
-    font-size: 2.8rem;
-  }
+  font-weight: bold;
+  font-size: 2.8rem;
+}
 
 /* PillarsOfBangladesh */
 #PillarsOfBangladesh {
@@ -111,17 +118,21 @@ nav h1 {
   flex: 1;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow:  0 0 0 0.1px #0e0e0e;
+  box-shadow: 0 0 0 0.1px #0e0e0e;
+  transition: all 0.3s ease-in-out;
+}
+#PillarsOfBangladesh .phillars .phillars_content:hover {
+  background-color: #c6e4d6;
 }
 #PillarsOfBangladesh .phillars .phillars_content h2 {
-    margin-top: 1rem;
-    font-weight: bolder;
-    color: #0e0e0e;
-  }
+  margin-top: 1rem;
+  font-weight: bolder;
+  color: #0e0e0e;
+}
 #PillarsOfBangladesh .phillars .phillars_content p {
-    margin-top: 1rem;
-    opacity: 0.7;
-  }
+  margin-top: 1rem;
+  opacity: 0.7;
+}
 /* the fureture of banglesh code start here */
 #FutureOfBangladesh {
   margin-top: 3rem;
@@ -150,112 +161,110 @@ nav h1 {
   border-radius: 10px;
   min-height: 300px;
 }
-#FutureOfBangladesh .future .future_content  h2{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  #FutureOfBangladesh .future .future_content  p{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.7;
-  }
-  #FutureOfBangladesh .future .future_content .fbtn2{
-    background-color: #09A15C;
-  }
-  #FutureOfBangladesh .future .future_content .fbtn3{
-    background-color:#FFC239 ;
-  }
-  #FutureOfBangladesh .future .future_content .fbtn1{
-    background-color:#5490F5 ;
-  }
+#FutureOfBangladesh .future .future_content h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#FutureOfBangladesh .future .future_content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+#FutureOfBangladesh .future .future_content .fbtn2 {
+  background-color: #09a15c;
+}
+#FutureOfBangladesh .future .future_content .fbtn3 {
+  background-color: #ffc239;
+}
+#FutureOfBangladesh .future .future_content .fbtn1 {
+  background-color: #5490f5;
+}
 #FutureOfBangladesh .future .clOne {
-    background-color: #d5e1f5;
+  background-color: #d5e1f5;
 }
 #FutureOfBangladesh .future .clTwo {
   background-color: #c6e4d6;
 }
 #FutureOfBangladesh .future .clThree {
-  background-color: #F7EBCF;
+  background-color: #f7ebcf;
 }
-#quts{
-    margin-bottom: 3rem;
+#quts {
+  margin-bottom: 3rem;
 }
 #quts .quts_container {
-    box-shadow:  0 0 0 0.1px #0e0e0e;
-    padding: 1.5rem;
-    margin-right: 1.5rem;
-    border-radius: 5px;
+  box-shadow: 0 0 0 0.1px #0e0e0e;
+  padding: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 5px;
 }
 #quts .quts_container .bgimag {
-   background-image: url("../assets/quote-bg.png");
-   background-repeat: no-repeat;
-   background-position: top left;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
-#quts .quts_container .bgimag p{
-    opacity: 0.8;
-    margin-bottom: 1rem;
+#quts .quts_container .bgimag p {
+  opacity: 0.8;
+  margin-bottom: 1rem;
 }
-#quts .quts_container h4{
-    font-weight: bolder;
-    font-size: 1rem;
+#quts .quts_container h4 {
+  font-weight: bolder;
+  font-size: 1rem;
 }
 #quts .quts_container p small {
-    opacity: 0.6;
+  opacity: 0.6;
 }
-#opinion_metter .opinion_container{
-    background-color: #fff;
-    
+#opinion_metter .opinion_container {
+  background-color: #fff;
 }
 
-#opinion_metter .opinion_container .opinion_head{
-    box-shadow:  0 0 0 0.5px #0e0e0e;
-
+#opinion_metter .opinion_container .opinion_head {
+  box-shadow: 0 0 0 0.5px #0e0e0e;
 }
-#opinion_metter .opinion_container .opinion_head .opinion_head_content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: #c6e4d6;
+#opinion_metter .opinion_container .opinion_head .opinion_head_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #c6e4d6;
 }
-#opinion_content{
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    margin-top: -1rem;
+#opinion_content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: -1rem;
 }
 #opinion_content .text {
-    display: flex;
-    flex: 3;
-    flex-direction: column;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
 }
-#opinion_content .text p{
-   padding: 1rem;
-   border-bottom: 1px solid #0e0e0e;
-   border-right:1px solid #0e0e0e ;
+#opinion_content .text p {
+  padding: 1rem;
+  border-bottom: 1px solid #0e0e0e;
+  border-right: 1px solid #0e0e0e;
 }
-#select_option{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+#select_option {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
-#select_option div{
-    border-bottom: 1px solid #0e0e0e;
-    padding: 1rem;
+#select_option div {
+  border-bottom: 1px solid #0e0e0e;
+  padding: 1rem;
 }
-#select_option select{
-    border-radius: 5px;
-    background-color: #c6e4d6;
-    outline: none;
+#select_option select {
+  border-radius: 5px;
+  background-color: #c6e4d6;
+  outline: none;
 }
-#opinion_metter h1{
-font-weight: bolder;
+#opinion_metter h1 {
+  font-weight: bolder;
 }
-#opinion_metter .opinion_container{
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
+#opinion_metter .opinion_container {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
 }
