@@ -161,6 +161,7 @@ nav h1 {
   border-radius: 10px;
   min-height: 300px;
 }
+
 #FutureOfBangladesh .future .future_content h2 {
   font-size: 1.5rem;
   font-weight: bolder;
@@ -183,12 +184,24 @@ nav h1 {
 }
 #FutureOfBangladesh .future .clOne {
   background-color: #d5e1f5;
+  transition: all 0.3s ease-in-out;
 }
 #FutureOfBangladesh .future .clTwo {
   background-color: #c6e4d6;
+  transition: all 0.3s ease-in-out;
 }
 #FutureOfBangladesh .future .clThree {
   background-color: #f7ebcf;
+  transition: all 0.3s ease-in-out;
+}
+#FutureOfBangladesh .future .clOne:hover {
+  background-color: #ffc239;
+}
+#FutureOfBangladesh .future .clTwo:hover {
+  background-color: #ffc239;
+}
+#FutureOfBangladesh .future .clThree:hover {
+  background-color: #ffc239;
 }
 #quts {
   margin-bottom: 3rem;

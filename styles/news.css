@@ -119,9 +119,39 @@ margin-bottom: 1rem;
     margin:1rem auto;
 }
 #newslater .emailFeild input{
-    padding: 0.3rem;
-    width: 50%;
-}
-#newslater .emailFeild button{
     padding: 0.6rem;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.Subscribe_btn{
+    padding: 0.6rem;
+    background-color: #006a50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    border-radius: 0 5px 5px 0;
+
+}
+.Subscribe_btn:hover{
+    background-color: blanchedalmond;
+  box-shadow: 0 0 0 0.1px #0e0e0e;
+  color: darkblue;
+}
+/* footer */
+footer{
+    text-align: center;
+}
+footer h2 {
+    margin-bottom:1rem ;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 1rem;
 }
