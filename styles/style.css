@@ -1,5 +1,71 @@
+:root{
+    --banerColor:#C6E4D6;
+}
+/* rest code */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+}
+body{
+max-width:90% ;
+margin: auto;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.6rem;
+    font-weight: bold;
+}
+header{
+    margin-bottom: 3rem;
+}
+/* nav start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+nav h1{
+    font-weight: bolder;
+} 
+#singin{
+color: #006A50;
+padding: 0.7rem;
+border: #006A50 solid 1px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 1rem;
+cursor: pointer;
+}
+/* banner code */
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--banerColor);
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 10px
+}
+#banner .banner_image{
+    flex: 1;
+}
+#banner .banner_content {
+    flex: 1;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+#banner .banner_content p{
+   opacity: 0.6;
+   font-weight: bold;
+   font-size: 0.9rem;
+   margin-bottom: 0.7rem;
 }
