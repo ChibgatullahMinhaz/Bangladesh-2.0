@@ -1,102 +1,195 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 90%;
-    margin: auto;
+  max-width: 90%;
+  margin: auto;
 }
 
 .btn {
-    padding: 0.5rem 1rem;
-    background-color: #006A50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 0.6rem;
-    font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #006a50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.6rem;
+  font-weight: bold;
 }
 
 header {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* nav start */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
 nav h1 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 #singin {
-    color: #006A50;
-    padding: 0.7rem;
-    border: #006A50 solid 1px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
+  color: #006a50;
+  padding: 0.7rem;
+  border: #006a50 solid 1px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 /* banner code */
 #banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #C6E4D6;
-    padding: 1.5rem;
-    text-align: center;
-    margin-top: 1rem;
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6e4d6;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 10px;
 }
 
 #banner .banner_image {
-    flex: 1;
+  flex: 1;
 }
 
 #banner .banner_content {
-    flex: 1;
-    text-align: left;
-    padding: 1rem;
-    font-size: 1.6rem;
+  flex: 1;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.6rem;
 }
 
 #banner .banner_content p {
-    opacity: 0.6;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-bottom: 0.7rem;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
 }
 
 /* PillarsOfBangladesh */
 #PillarsOfBangladesh {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 #PillarsOfBangladesh .Pillars_title {
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #0E0E0E;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #0e0e0e;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #PillarsOfBangladesh .phillars {
-    display: flex;
-    margin-top: 3rem;
-    gap: 2rem;
+  display: flex;
+  margin-top: 3rem;
+  gap: 2rem;
 }
 
 #PillarsOfBangladesh .phillars .phillars_content {
-    flex: 1;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 0.5px #C6E4D6, 0 0 0 0.10px #0E0E0E;
+  flex: 1;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow:  0 0 0 0.1px #0e0e0e;
+}
+#PillarsOfBangladesh .phillars .phillars_content h2 {
+    margin-top: 1rem;
+    font-weight: bolder;
+    color: #0e0e0e;
+  }
+#PillarsOfBangladesh .phillars .phillars_content p {
+    margin-top: 1rem;
+    opacity: 0.7;
+  }
+/* the fureture of banglesh code start here */
+#FutureOfBangladesh {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+#FutureOfBangladesh .future_title {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #0e0e0e;
+  margin-bottom: 1rem;
+}
+#FutureOfBangladesh .future_des {
+  margin-bottom: 2rem;
+  opacity: 0.6;
+}
+.future {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+#FutureOfBangladesh .future .future_content {
+  flex: 1;
+  padding: 2rem;
+  border-radius: 10px;
+  min-height: 300px;
+}
+#FutureOfBangladesh .future .future_content  h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #FutureOfBangladesh .future .future_content  p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+  #FutureOfBangladesh .future .future_content .fbtn2{
+    background-color: #09A15C;
+  }
+  #FutureOfBangladesh .future .future_content .fbtn3{
+    background-color:#FFC239 ;
+  }
+  #FutureOfBangladesh .future .future_content .fbtn1{
+    background-color:#5490F5 ;
+  }
+#FutureOfBangladesh .future .clOne {
+    background-color: #d5e1f5;
+}
+#FutureOfBangladesh .future .clTwo {
+  background-color: #c6e4d6;
+}
+#FutureOfBangladesh .future .clThree {
+  background-color: #F7EBCF;
+}
+#quts{
+    margin-bottom: 3rem;
+}
+#quts .quts_container {
+    box-shadow:  0 0 0 0.1px #0e0e0e;
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+}
+#quts .quts_container .bgimag {
+   background-image: url("../assets/quote-bg.png");
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+#quts .quts_container .bgimag p{
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+#quts .quts_container h4{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#quts .quts_container p small {
+    opacity: 0.6;
 }
