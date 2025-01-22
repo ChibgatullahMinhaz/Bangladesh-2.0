@@ -1,0 +1,51 @@
+@media screen and (max-width:576px) {
+    #banner{
+        flex-direction: column;
+        max-width: 96%;
+    }
+    .banner_content{
+        flex: 1;
+    }
+    .banner_image{
+        flex: 1;
+        max-width: 100%;
+    }
+    .banner_image img{
+        max-width: 100%;
+    }
+    #banner .banner_content h1 {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      #PillarsOfBangladesh .phillars {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+      }
+      .future {
+        flex-direction: column;
+      }
+      #card_container_one{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+      .card_content{
+        min-width: 98%;
+       
+      }
+      .donate_amount{
+        flex-direction: column;
+      }
+      #newslater{
+        padding: 0.3rem 0;
+      }
+    #newslater p{
+        margin: 0;
+        min-width: 100%;
+        text-align: center;
+    }
+   #newslater .emailFeild{
+        margin: 0.4rem 0;
+        min-width: 100%;
+    }
+}
