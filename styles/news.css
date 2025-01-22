@@ -52,17 +52,37 @@ h3 {
   padding: 3rem;
   gap: 2rem;
 }
-#donate .donate_amount h1 {
+#donate .donate_amount {
   flex: 1;
   box-shadow: 0 0 0 0.1px #0e0e0e;
+  
+}
+.done1, .done3, .done4, .done2{
+  background-color: #c6e4d6;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
   transition: all 0.3s ease-in;
-}
-#donate .donate_amount h1:hover {
-  background-color: #c6e4d6;
   cursor: pointer;
+}
+.done4:hover{
+background-color: blueviolet;
+color: #fff;
+}
+.done3:hover{
+background-color: burlywood;
+color: #fff;
+
+}
+.done2:hover{
+background-color:yellow;
+color: blueviolet;
+
+}
+.done1:hover{
+  background-color: orange;
+  color: blue;
+
 }
 #donate_conatiner {
   display: flex;
